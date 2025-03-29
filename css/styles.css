@@ -15,7 +15,9 @@ header {
     padding: 20px 0;
     text-align: center;
 }
-
+h4{
+    font-weight: 100;
+}
 nav {
     background-color: #017BFF;
     padding: 10px 0;
@@ -58,6 +60,7 @@ label {
     margin-top: 30px;
     font-weight: bold;
     text-align: start;
+    color: #555555;
 }
 
 .registrateAqui {
@@ -169,4 +172,5 @@ img {
 }
 #navlist a.Cerrar:hover { 
     color: red; 
+    font-weight: bold;
 } 
