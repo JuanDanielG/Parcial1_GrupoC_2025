@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Page</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../img/userIcon.png" type="image/x-icon"/>.
 </head>
+
 <body>
     <!-- Barra de navegación -->
-    <nav class="NavWelcome">
-            <a class="aWelcome" href="">Personas</a>
-            <a class="aWelcome" href="">Productos</a>
-            <a class="aWelcome" href="">Facturas</a>
-            <a class="aWelcome" href="login.html">Cerrar Sesión</a>
-    </nav>
-    <!-- titulo -->
-    <h1 class="h1Welcome">Bienvenido a la plataforma.</h1>
-    <!-- parrafo -->
-    <p class="pWelcome" >Selecciona una opcion de menú para comenzar.</p>
+
+    <div id="navlist">
+        <a href="#"><img src="../img/logoX.webp" alt="">Logo de la empresa X</a>
+        <div class="navlist-right">
+            <a href="#"> <img src="../img/userIcon.png" alt="icono de persona">Personas</a>
+            <a href="#"><img src="../img/productoIcon.png" alt="icono de productos"> Productos</a>
+            <a href="#"><img src="../img/facturaIcon.png" alt="icono de facturas">Facturas</a>
+            <a class="Cerrar" href="login.html"><img src="../img/cerrarSesionIcon.png" alt="icono de candado">Cerrar sesión</a>
+        </div>
+    </div>
+    <main>
+        <!-- titulo -->
+        <h1 class="h1Welcome">Bienvenido a la plataforma.</h1>
+        <!-- parrafo -->
+        <p class="pWelcome">Selecciona una opcion de menú para comenzar.</p>
+    </main>
+
 </body>
 </html>

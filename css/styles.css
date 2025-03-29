@@ -5,8 +5,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
     text-align: center;
+
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-    background-color: #333;
+    background-color: #017BFF;
     padding: 10px 0;
 }
 
@@ -59,20 +59,23 @@ label {
     font-weight: bold;
     text-align: start;
 }
-.registrateAqui{
+
+.registrateAqui {
     color: #017BFF;
 }
-.iniciar_sesion{
+
+.iniciar_sesion {
     color: #017BFF;
 }
-.No_tienes_Cuenta{
+
+.No_tienes_Cuenta {
     text-align: center;
     align-items: center;
     margin: auto
-    
 }
 
-input, textarea {
+input,
+textarea {
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
@@ -101,7 +104,8 @@ main {
     max-width: 700px;
 }
 
-input, textarea {
+input,
+textarea {
     align-items: center;
     width: 100%;
     padding: 8px;
@@ -113,23 +117,56 @@ input, textarea {
 }
 
 /* CSS Welcome Page */
-.NavWelcome{
-    background-color: #017BFF;
-    justify-content: right;
-    
-}
-.aWelcome{
+.aWelcome {
     color: white;
-    
+
 }
-.h1Welcome{
+
+.h1Welcome {
+    margin-top: 65px;
     font-family: Arial, sans-serif;
     color: black;
     text-align: center;
     align-items: center;
 }
-.pWelcome{
+
+.pWelcome {
     text-align: center;
     font-size: 18px;
     color: black;
 }
+
+img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+/* styling navlist */
+#navlist {
+    background-color: #017BFF;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0px;
+}
+
+/* styling navlist anchor element */
+#navlist a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navlist-right {
+    float: right;
+}
+#navlist a.Cerrar:hover { 
+    color: red; 
+} 
