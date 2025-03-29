@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center;
 }
 
 header {
@@ -43,23 +44,22 @@ nav ul li a:hover {
 
 form {
     background: white;
-    padding: 40px;
+    padding: 45px;
     margin: 20px auto;
     width: 50%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 
 label {
     display: block;
-    margin-top: 10px;
+    margin-top: 30px;
     font-weight: bold;
+    align-items: center;
 }
 
 input, textarea {
-    width: 100%;
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
@@ -72,16 +72,27 @@ button {
     padding: 10px;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100%;
     border-radius: 8px;
+    align-items: center;
 }
 
 button:hover {
     background: #304be6;
 }
+
 main {
     margin: 20px auto;
     padding: 20px;
-    max-width: 600px;
+    max-width: 700px;
+}
+
+input, textarea {
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }

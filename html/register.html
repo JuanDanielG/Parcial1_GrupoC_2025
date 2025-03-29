@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <main>
+        <form action="welcome.html"> 
+                <h2 id="crear">Crear cuenta en nuestra app</h2>
+
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" required="" minlength="10" maxlength="50" placeholder="Ingrese su nombre">
+
+                <label for="email">Correo Electronico</label>
+                <input type="email" id="email" name="email" required="" placeholder="Ingrese su correo">
+
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name="contraseña" required="" minlength="8" placeholder="Minimo 8 caracteres">
+
+                <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento" required="">
+
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono" required="" placeholder="Màximo 10 caracteres">
+
+                <button type="submit">Registrarse</button>
+
+                <label>¿Ya tienes Cuenta? <a href="login.html">Inicia Sesión</a></label>
+        </form>
+    </main>
+</body>
+</html>
