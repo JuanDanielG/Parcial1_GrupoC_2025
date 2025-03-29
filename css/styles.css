@@ -1,3 +1,4 @@
+/* CSS PRINCIPAL */
 body {
     height: 100%;
     font-family: Arial, sans-serif;
@@ -67,7 +68,7 @@ input, textarea {
 }
 
 button {
-    background: #224fe2;
+    background: #017BFF;
     color: white;
     padding: 10px;
     border: none;
@@ -75,13 +76,36 @@ button {
     margin-top: 10px;
     width: 100%;
     border-radius: 8px;
+    align-items: center;
 }
 
 button:hover {
-    background: #304be6;
+    background: #224fe2;
 }
 main {
     margin: 20px auto;
     padding: 20px;
     max-width: 600px;
+}
+
+/* CSS Welcome Page */
+.NavWelcome{
+    background-color: #017BFF;
+    align-items: center;
+    text-align: center;
+}
+.aWelcome{
+    color: white;
+    
+}
+.h1Welcome{
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+.pWelcome{
+    text-align: center;
+    font-size: 18px;
+    color: black;
 }
